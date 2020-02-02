@@ -1,23 +1,22 @@
-# Hackintosh for Thinkpad X1 Extreme Gen I
+# Hackintosh for Razer Blade Advanced 15
 [![macOS](https://img.shields.io/badge/macOS-10.15.2-orange)](https://www.apple.com/macos/catalina/)
 [![Clover](https://img.shields.io/badge/Clover-5101-yellowgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![BIOS](https://img.shields.io/badge/BIOS-N2EET43W%201.25-brightgreen)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![MODEL](https://img.shields.io/badge/Model-20MF000DUS-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
-> Oh! This thing you guys made, excited!  ——— [Zemin Jiang](https://hongjunwu.com/elder/).    
-### Current Release: [10.15.2-V3.7](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases)
+> If cut an apple in half everyday, it will sxist even after ten thousand generations.  ——— [Zemin Jiang](https://hongjunwu.com/elder/).    
+### Current Release: [TBD](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
-> 英语并非你的首选语言？[中文版文档（非最新）](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/README_zh_CN.md)
 
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
-* [20200124] Happy the 4718th Lunar New Year everybody! 
+* [20200202] Project start. 
 
 ## Instructions
 ### Please read the `Post-Install` section. 
