@@ -38,7 +38,7 @@
     
 #### macOS
 * Download Old macOS Versions:
-   * [How to Download and Install Older macOS Versions With Terminal, Brendan Hesse.](https://lifehacker.com/how-to-download-and-install-older-macos-versions-with-t-1839671161)
+   * [Download a full ‘Install macOS’ app with softwareupdate in Catalina.](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 
 #### Clover Bootloader
 * [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
