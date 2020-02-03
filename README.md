@@ -27,27 +27,26 @@
 
 ## Issues & Solutions
 #### Guides
-* [Razer Blade 15 Advanced (Mojave and Catalina) by stonevil.](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
-* [Razer Blade 15 Advanced (High Sierra) by vettz500.](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/)
+* [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
+* [ARTICLE - Razer Blade 15 Advanced (High Sierra)](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/)
 
 #### Windows drivers for Wifi Adapters:
- * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
+ * These cards are not natively supported by Windows 10 so download it before you swap out your wireless card.
  * [BRCM943602CS (Apple)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1)
  * [BRCM943602BAED (DW1830)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1)
 
-    
 #### macOS
-* Download Old macOS Versions:
-   * [Download a full ‘Install macOS’ app with softwareupdate in Catalina.](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
+* At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
+* [ARTICLE - Download a full ‘Install macOS’ app with softwareupdate in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 
 #### Clover Bootloader
 * [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
-* [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
+* [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 #### ACPI
 * [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
-   * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`.
+   * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
 #### Customize "About this Mac":
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
