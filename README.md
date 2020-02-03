@@ -33,7 +33,7 @@
 #### Windows drivers for Wifi Adapters:
  * These cards are not natively supported by Microsoft so download it before you swap out your wireless card.
  * [BRCM943602CS (Apple)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1)
- * [BRCM943602BAED (DW1830)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1): To get DW1830 working in Windows. 
+ * [BRCM943602BAED (DW1830)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1)
 
     
 #### macOS
