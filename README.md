@@ -52,6 +52,15 @@
 #### Realtek Audio in Windows
 * If audio is not working in Windows, use [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
+#### Bluetooth
+* Under Windows, use this driver: [broadcom_bt_1201940_64_413.exe
+](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
+
+#### Wifi
+* Under Windows, use this driver: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
+  * Note this also applies to DW1830 and BCM943602CS.
+* Under macOS, Wifi should work without any modification.
+
 #### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
    
