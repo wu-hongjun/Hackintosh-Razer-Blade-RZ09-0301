@@ -28,11 +28,6 @@
 * [ARTICLE - Razer Blade 15 Advanced (High Sierra)](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/)
 * [ARTICLE - The Vanilla Laptop Guide](https://fewtarius.gitbook.io/laptopguide/)
 
-#### Windows drivers for Wifi Adapters:
- * These cards are not natively supported by Windows 10 so download it before you swap out your wireless card.
- * [BRCM943602CS (Apple)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1)
- * [BRCM943602BAED (DW1830)](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602BAED.1)
-
 #### macOS
 * At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
 * [ARTICLE - Download a full ‘Install macOS’ app with softwareupdate in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
@@ -57,8 +52,8 @@
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
 
 #### Wifi
-* Under Windows, use this driver: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
-  * Note this also applies to DW1830 and BCM943602CS.
+* Under Windows, DW1820A/DW1830 use this driver: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
+* Under Windows, BCM943602CS use this driver: [Broadcom Wifi Bootcamp driver](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1).
 * Under macOS, Wifi should work without any modification.
 
 #### System Preferences
