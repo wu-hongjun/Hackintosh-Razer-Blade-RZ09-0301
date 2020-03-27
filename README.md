@@ -19,8 +19,9 @@
 * [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
 
-## HELP!!!
+## KNOWN ISSUES HELP!!! 
   * For now, I'm stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
+  * Also audio output background noise when plugged into a 3.5mm output device.
   * Any help would be appreciated!!!!
   
 ## Issues & Solutions
