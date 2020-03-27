@@ -19,10 +19,12 @@
 * [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
 
-## KNOWN ISSUES HELP!!! 
-  * For now, I'm stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
-  * Also audio output background noise when plugged into a 3.5mm output device.
-  * Any help would be appreciated!!!!
+## KNOWN ISSUES HELP!!!
+#### Any help would be appreciated!!!!
+  * Stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
+  * Audio output background noise when plugged into a 3.5mm output device.
+  * Theme icon display error caused likely by Clover 5107.
+
   
 ## Issues & Solutions
 #### Issue Report
