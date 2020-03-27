@@ -1,0 +1,45 @@
+
+Clover EFI installer log - Tue Mar 24 22:09:42 PDT 2020
+Installer version: r5107 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *2.0 TB     disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         750.0 GB   disk0s2
+   3:       Microsoft Basic Data Windows                 1.3 TB     disk0s3
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +750.0 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh - Data        296.4 GB   disk1s1
+   2:                APFS Volume Preboot                 86.8 MB    disk1s2
+   3:                APFS Volume Recovery                528.1 MB   disk1s3
+   4:                APFS Volume VM                      1.1 MB     disk1s4
+   5:                APFS Volume Macintosh               11.2 GB    disk1s5
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *32.1 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Install macOS Catalina  31.7 GB    disk2s2
+
+Target volume /Volumes/Macintosh on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/Macintosh/EFIROOTDIR/boot  to /Volumes/Macintosh/EFI-Backups/r5104/2020-03-24-22h09/boot
+Backing up /Volumes/Macintosh/EFIROOTDIR/EFI folder to /Volumes/Macintosh/EFI-Backups/r5104/2020-03-24-22h09/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+Stage 2 - Written boot6 (x64) to /Volumes/EFI/boot
+
+Removing UEFI/SMCHelper.efi driver because VirtualSMC driver present
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
