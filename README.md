@@ -19,6 +19,10 @@
 * [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
 
+## HELP!!!
+  * For now, I'm stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
+  * Any help would be appreciated!!!!
+  
 ## Issues & Solutions
 #### Issue Report
 * We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
@@ -42,21 +46,16 @@
 * [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
    * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
-#### AppleALC
+#### Audio
+* KEXT required to enable Audio support: `AppleALC.kext`
 * Make sure you inject audio layout-id = 3, not 1 in config.plist/Devices/Audio. 
-
-#### Realtek Audio in Windows
-* If audio is not working in Windows, use [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
+* Windows Driver: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
 #### Wifi & Bluetooth
 * In order to get Bluetooth and Wifi working, a wireless card replacement is needed.
 * For now, the best card to use is DW1830. It has the highest performance among all other hackintosh-able wireless cards.
 * I also tested BCM94360CS2 and BCM943602CS, both aren't as good supported as DW1830, both in terms of Windows and macOS on Razer Blade.
-* KEXT required to enable BT support:
-  * AirportBrcmFixup.kext
-  * BrcmBluetoothInjector.kext
-  * BrcmFirmwareData.kext
-  * BrcmPatchRAM3.kext 
+* KEXT required to enable BT support: `AirportBrcmFixup.kext`,`BrcmBluetoothInjector.kext`,`BrcmFirmwareData.kext`,`BrcmPatchRAM3.kext`.
 * Windows Drivers:
   * Wifi: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
   * Bluetooth: [broadcom_bt_1201940_64_413.exe
@@ -88,6 +87,7 @@
 #### Other Configurations:
 | Owner | CPU | Model | Link |
 | --- | --- | --- | --- |
+| stonevil | i7-8750H | RZ09-0288 | [Link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
 
 #### More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
