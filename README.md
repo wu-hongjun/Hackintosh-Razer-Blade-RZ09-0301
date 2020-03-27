@@ -16,6 +16,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
 
 ## Issues & Solutions
@@ -47,14 +48,19 @@
 #### Realtek Audio in Windows
 * If audio is not working in Windows, use [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
-#### Bluetooth
-* Under Windows, use this driver: [broadcom_bt_1201940_64_413.exe
+#### Wifi & Bluetooth
+* In order to get Bluetooth and Wifi working, a wireless card replacement is needed.
+* For now, the best card to use is DW1830. It has the highest performance among all other hackintosh-able wireless cards.
+* I also tested BCM94360CS2 and BCM943602CS, both aren't as good supported as DW1830, both in terms of Windows and macOS on Razer Blade.
+* KEXT required to enable BT support:
+  * AirportBrcmFixup.kext
+  * BrcmBluetoothInjector.kext
+  * BrcmFirmwareData.kext
+  * BrcmPatchRAM3.kext 
+* Windows Drivers:
+  * Wifi: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
+  * Bluetooth: [broadcom_bt_1201940_64_413.exe
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
-
-#### Wifi
-* Under Windows, DW1820A/DW1830 use this driver: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
-* Under Windows, BCM943602CS use this driver: [Broadcom Wifi Bootcamp driver](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/releases/tag/v943602CS.1).
-* Under macOS, Wifi should work without any modification.
 
 #### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
