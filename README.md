@@ -52,7 +52,8 @@
 #### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
 * Make sure you inject audio `layout-id = 3`, not `1` in `config.plist/Devices/Audio`. 
- * Please share if you find out other working `layout-id`!
+ * Please share if you find out other working `layout-id`! 
+ * Note that so far this AppleALC still has background noise issue when plugged into a 3.5mm headphone.
 * Windows Driver: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
 #### Wifi & Bluetooth
