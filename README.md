@@ -21,9 +21,10 @@
 
 ## KNOWN ISSUES HELP!!!
 #### Any help would be appreciated!!!!
-  * Stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
-  * Audio output background noise when plugged into a 3.5mm output device.
-  * Theme icon display error caused likely by Clover 5107.
+* Stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
+    * Boot stuck in `gIOScreenLockState 3, hs 0, bs 0, now 0, sm 0x0` if boot without `FakeID=0x12345678`.
+* Audio output background noise when plugged into a 3.5mm output device.
+* Theme icon display error caused likely by Clover 5107.
 
   
 ## Issues & Solutions
