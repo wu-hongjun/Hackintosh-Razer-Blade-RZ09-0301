@@ -8,7 +8,7 @@
 
 
 > Press E to row. ——— [The Elder](https://hongjunwu.com/elder/).    
-### Current Release: [(Deprecated) v1.7](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
+### Current Release: [v10.15.4-2.3 BETA](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
