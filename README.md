@@ -37,7 +37,7 @@
 | iGPU | Intel UHD 630 |
 | dGPU | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | WLAN | Dell DW1830 BCM943602BAED 802.11AC + Bluetooth 4.1 |
-| Webcam | 720P Webcam |
+| Webcam | Integrated 720P + IR Camera |
 | Internal Screen | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | Asus XG279Q 27' 2560x1440 144Hz |
 | Mouse | Logitech G Pro Wireless |
