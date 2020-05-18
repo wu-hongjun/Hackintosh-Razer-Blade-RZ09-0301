@@ -72,20 +72,20 @@
 ##### dGPU
 * NVIDIA RTX 2070 Max-Q is not supported and is disabled with `-wegnoegpu`.
 * [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
+##### eGPU via USB
+* USB DisplayLink Display Output: 
+  * Hardware
+     * DisplayLink is a USB hardware based solution for display output. 
+     * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull). It is able to achieve 4K60P via the DisplayLink Chip. 
+     * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz, macOS support 60Hz). 
+  * Software
+     * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
+     * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference.
+##### eGPU via Thunderbolt 3
+* Untested.
 
 ### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
-   
-
-   
-### USB DisplayLink Display Output: 
-##### Hardware
-   * DisplayLink is a USB hardware based solution for display output. 
-   * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull). It is able to achieve 4K60P via the DisplayLink Chip. 
-   * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz, macOS support 60Hz). 
-##### Software
-   * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
-   * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference.
      
 ### Thunderbolt
 ##### General
