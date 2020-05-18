@@ -84,10 +84,10 @@
 #### About This Machine:
    
 #### Other Configurations:
-| Owner | CPU | Model | Link |
-| --- | --- | --- | --- |
-| stonevil | i7-8750H | RZ09-0288 | [Link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) |
-
+| Owner | CPU | Model | Bootloader | Link |
+| --- | --- | --- | --- | --- |
+| stonevil | i7-8750H | RZ09-0288 | Clover | [Link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
+| boyuanx | i7-9750H | RZ09-0301 | OpenCore | [Link](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh/issues/23#issuecomment-629762916) |
 #### More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
