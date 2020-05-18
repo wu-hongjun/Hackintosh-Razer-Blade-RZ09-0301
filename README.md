@@ -44,14 +44,6 @@
 * Wifi (DW1830): [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
 * Bluetooth (DW1830): [broadcom_bt_1201940_64_413.exe
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
-
-### OpenCore
-* TBD
-
-### ACPI
-##### Clover (Deprecated)
-* [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
-   * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
 ### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
@@ -102,9 +94,14 @@
 ### Replace Thermal Paste:
    * WARNING: Not recommended. If you bend the copper plate the entire thing becomes useless. 
       
+
+   
 ### Clover Bootloader (Deprecated)
 * [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
+* ACPI
+  * [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
+    * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
 ### Other Configurations:
 | Owner | CPU | Model | Bootloader | Link |
