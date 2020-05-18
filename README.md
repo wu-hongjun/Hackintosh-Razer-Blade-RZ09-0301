@@ -31,6 +31,7 @@
 | Part | Model | 
 | --- | --- | 
 | Machine | RZ09-0301 |
+| BIOS | 1.04 |
 | CPU | Intel i7-9750H 2.60GHz 6C12T |
 | RAM | 32GB DDR4 2666GHz SODIMM |
 | SSD | 2TB Sabrent NVMe SSD |
