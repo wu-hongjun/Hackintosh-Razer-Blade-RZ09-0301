@@ -16,15 +16,9 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20200517] Starting from v2.X, this project will be moving to OpenCore.
 * [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
-
-## KNOWN ISSUES HELP!!!
-#### Any help would be appreciated!!!!
-* Stuck in fixing the framebuffer for intel UHD 630 on CFL-Refresh (9750H). 
-    * Boot stuck in `gIOScreenLockState 3, hs 0, bs 0, now 0, sm 0x0` if boot without `FakeID=0x12345678`.
-* Audio output background noise when plugged into a 3.5mm output device.
-* Theme icon display error caused likely by Clover 5107.
 
   
 ## Issues & Solutions
@@ -47,14 +41,13 @@
 * [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 #### ACPI
-* [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
+* (Deprecated from V2.0) [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
    * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
 #### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
 * Make sure you inject audio `layout-id = 3`, not `1` in `config.plist/Devices/Audio`. 
  * Please share if you find out other working `layout-id`! 
- * Note that so far this AppleALC still has background noise issue when plugged into a 3.5mm headphone.
 * Windows Driver: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
 #### Wifi & Bluetooth
@@ -105,7 +98,7 @@
 | --- | --- |
 | [Rehabman](https://github.com/RehabMan) | Many kernel extensions and guides. |
 | [Acidanthera](https://github.com/acidanthera) | Lilu.kext and WhateverGreen.kext. |
-
+| [Jack Boyuan Xu](https://github.com/boyuanx) | OpenCore [solution](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh/issues/23#issuecomment-629762916). |
 
 ## Discussions and News
 
