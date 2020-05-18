@@ -67,6 +67,8 @@
 ### GPU
 ##### iGPU
 * UHD 630 is supported from 2.X and above.
+* HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
+   * Long story short, it won't work. If it works, let me know. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT. 
 ##### dGPU
 * NVIDIA RTX 2070 Max-Q is not supported and is disabled with `-wegnoegpu`.
 * [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
@@ -74,8 +76,7 @@
 ### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
    
-### HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
-   * Long story short, it won't work. If it works, let me know. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT. 
+
    
 ### USB DisplayLink Display Output: 
 ##### Hardware
