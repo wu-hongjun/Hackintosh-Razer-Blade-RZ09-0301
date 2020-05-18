@@ -1,7 +1,4 @@
 # Hackintosh for Razer Blade Advanced 15
-[![macOS](https://img.shields.io/badge/macOS-10.15.4-orange)](https://www.apple.com/macos/catalina/)
-![Clover](https://img.shields.io/badge/Clover-5107-green)
-[![BIOS](https://img.shields.io/badge/BIOS-1.04-brightgreen)](https://dl.razer.com/drivers/Razer%20Blade%2015%22%20Mid%202019/Razer%20Blade%2015%20%28Mid%202019%29%20Advanced%20-%20BIOS%20Updater%20Guide.pdf)
 ![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
