@@ -129,7 +129,7 @@
 ### More Hackintosh EFI Resource:
    * Hackintosh Laptop Index: EFI for other laptop might help as a useful reference. Navigate to [here](https://github.com/daliansky/Hackintosh) (cr. [daliansky](https://github.com/daliansky)) if you need more reference from other laptops. Note: The word “链接” in Chinese means “link” so click on it it will take you to the repo you are looking for.
 
-## Other Contributors
+## Contributors
 * Note: There is no order in the ranking of names. 
 * This list may not be complete! Feel free to let me know. Sorry for any inconvience.
 
