@@ -49,7 +49,7 @@
    
 #### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
-* Make sure you inject audio `layout-id = 3`, not `1` in `config.plist/Devices/Audio`. 
+* Make sure you inject audio `layout-id = 3`, not `1` in OpenCore config `config.plist/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` or in Clover, `config.plist/Devices/Audio`. 
  * Please share if you find out other working `layout-id`! 
 * Windows Driver: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
 
