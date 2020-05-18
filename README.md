@@ -61,10 +61,10 @@
 #### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
    
-#### HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables (NOT eGPU):
+#### HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
    * Long story short, it won't work. If it works, let me know. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT. 
    
-#### USB DisplayLink Dongle Display Output (NOT eGPU): 
+#### USB DisplayLink Display Output: 
 ##### Hardware
    * DisplayLink is a USB hardware based solution for display output. 
    * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull). It is able to achieve 4K60P via the DisplayLink Chip. 
@@ -73,7 +73,14 @@
    * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
    * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference.
      
-            
+#### Thunderbolt
+##### General
+* As of the Clover version (Latest 1.8) thunderbolt seems to be working.
+* For OpenCore version (v2.X and above), I have not successfullyimplemented Thunderbolt 3.
+* Hardware I tested with: Thunderbolt 3 NVMe SSD enclosure + PM981 1TB.
+##### eGPU
+* I sold my eGPU so I was not abe to test it, but for OpenCore version, for now, it is probably not going to work.
+
 #### Undervolting:
   * TBD
   * By undervolting the computer, the fan is MUCH quieter and more pleasant to use. I am using an app called [volta](https://volta.garymathews.com). You can also google for undervolting using script which I hasn't tried so do it in your own risk. Unfortunately intel does not have a XTU software for macOS. It is not free, but it is cheap. Just two cups of coffee gives you a much better experience. You can download a "trial version" and try it out on your laptop. I didn't get money for advertising this...it just works. 
