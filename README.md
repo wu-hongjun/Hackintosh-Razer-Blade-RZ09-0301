@@ -31,7 +31,7 @@
 ### Guides
 * [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
 * [ARTICLE - Razer Blade 15 Advanced (High Sierra)](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/)
-* [ARTICLE - The Vanilla Laptop Guide](https://fewtarius.gitbook.io/laptopguide/)
+* [ARTICLE - The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/)
 
 ### macOS
 * At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
