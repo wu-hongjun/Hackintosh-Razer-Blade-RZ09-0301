@@ -2,7 +2,7 @@
 ![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-<img align="center" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/catcritter.png" alt="Critter" width="250">
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 
 > Press E to row. ——— [Zemin Jiang](https://hongjunwu.com/elder/).    
