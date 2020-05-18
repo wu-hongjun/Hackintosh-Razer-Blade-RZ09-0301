@@ -38,8 +38,8 @@
 | dGPU | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | WLAN | Dell DW1830 BCM943602BAED 802.11AC + Bluetooth 4.1 |
 | Webcam | 720P Webcam |
-| Internal Screen | 1920x1080 240Hz |
-| External Screen | Asus XG279Q 2560x1440 144Hz |
+| Internal Screen | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
+| External Screen | Asus XG279Q 27' 2560x1440 144Hz |
 | Mouse | Logitech G Pro Wireless |
 | Keyboard | Plum Niz 84EC |
 | eGPU (USB) | Plugable USB3 6950 HDMI |
