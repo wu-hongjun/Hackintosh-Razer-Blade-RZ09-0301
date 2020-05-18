@@ -2,17 +2,20 @@
 ![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/IMG/catcritter.png" alt="Critter" width="250">
+<img align="center" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/catcritter.png" alt="Critter" width="250">
+
 
 > Press E to row. ——— [Zemin Jiang](https://hongjunwu.com/elder/).    
 ### Current Release: [v1.7](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/opencore_logo.png" alt="OpenCore" width="250">
 
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/UPDATES.md)
+* [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
 * [20200327] Released the first major release: v1.7.
 * [20200202] Project start. 
