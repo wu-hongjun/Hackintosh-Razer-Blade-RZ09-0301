@@ -35,7 +35,8 @@
 
 #### macOS
 * At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
-* [ARTICLE - Download a full ‘Install macOS’ app with softwareupdate in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
+* [ARTICLE - Download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
+* [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 #### Windows
 ##### Drivers
@@ -44,10 +45,8 @@
 * Bluetooth (DW1830): [broadcom_bt_1201940_64_413.exe
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
 
-#### Clover Bootloader (Deprecated)
-* [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
-* [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
+#### OpenCore
+* TBD
 
 #### ACPI
 ##### Clover (Deprecated)
@@ -58,7 +57,6 @@
 * KEXT required to enable Audio support: `AppleALC.kext`
 * Make sure you inject audio `layout-id = 3`, not `1` in OpenCore `config.plist/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` or in Clover, `config.plist/Devices/Audio`. 
  * Please share if you find out other working `layout-id`! 
-
 
 #### Wifi & Bluetooth
 * In order to get Bluetooth and Wifi working, a wireless card replacement is needed.
@@ -96,7 +94,9 @@
 #### Replace Thermal Paste:
    * WARNING: Not recommended. If you bend the copper plate the entire thing becomes useless. 
       
-#### About This Machine:
+#### Clover Bootloader (Deprecated)
+* [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
+* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
    
 #### Other Configurations:
 | Owner | CPU | Model | Bootloader | Link |
@@ -118,6 +118,7 @@
 ## Discussions and News
 
 * [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
+
 
 ## License
 * This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
