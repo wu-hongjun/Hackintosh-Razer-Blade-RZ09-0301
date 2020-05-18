@@ -62,6 +62,9 @@
 * Bluetooth (DW1830): [broadcom_bt_1201940_64_413.exe
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
    
+### BIOS
+* Note that using other people's BIOS is generally a really, really bad idea, I strongly recommend you follow [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) to modify your BIOS.
+* However, I will provide my BIOS as a reference under `./BIOS/afuwin.rom`.
 ### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
 * Make sure you inject audio `layout-id = 3`, not `1` in OpenCore `config.plist/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` or in Clover, `config.plist/Devices/Audio`. 
