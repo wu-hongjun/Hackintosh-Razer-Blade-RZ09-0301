@@ -138,6 +138,8 @@
 | [Rehabman](https://github.com/RehabMan) | Many kernel extensions and guides. |
 | [Acidanthera](https://github.com/acidanthera) | OpenCore, Lilu.kext, and WhateverGreen.kext. |
 | [Jack Boyuan Xu](https://github.com/boyuanx) | OpenCore [solution](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh/issues/23#issuecomment-629762916). |
+| [Myroslav Rys](https://github.com/stonevil) | Clover portion and BIOS modification. |
+| [Avery Black](https://github.com/1Revenger1) | OpenCore Laptop Guide |
 
 ## License
 * This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
