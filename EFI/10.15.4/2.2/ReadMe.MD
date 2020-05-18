@@ -1,6 +1,6 @@
 # V2.2
 ## Changes
-* Rolled back VoodooCHID.kext to fix a trackpad issue. 
+* Fixed USB by importing a customized USBData map.
 
 ## Known Issues 
 * Bluetooth not working.
