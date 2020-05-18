@@ -20,8 +20,6 @@
 * [20200518] Released v10.15.4-2.3 BETA.
 * [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
-* [20200327] Released the first major release: v1.7.
-* [20200202] Project start. 
 
   
 ## Issues & Solutions
