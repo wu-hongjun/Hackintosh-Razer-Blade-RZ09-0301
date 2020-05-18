@@ -37,31 +37,34 @@
 * At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
 * [ARTICLE - Download a full ‘Install macOS’ app with softwareupdate in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 
-#### Clover Bootloader
+#### Windows
+##### Drivers
+* Audio: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
+* Wifi (DW1830): [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
+* Bluetooth (DW1830): [broadcom_bt_1201940_64_413.exe
+](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
+
+#### Clover Bootloader (Deprecated)
 * [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
 * [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
 * [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 #### ACPI
-##### Clover
-* (Deprecated from V2.0) [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
+##### Clover (Deprecated)
+* [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
    * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
    
 #### Audio
 * KEXT required to enable Audio support: `AppleALC.kext`
-* Make sure you inject audio `layout-id = 3`, not `1` in OpenCore config `config.plist/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` or in Clover, `config.plist/Devices/Audio`. 
+* Make sure you inject audio `layout-id = 3`, not `1` in OpenCore `config.plist/NVRAM/Add/7C436110-AB2A-4BBB-A880-FE41995C9F82/boot-args` or in Clover, `config.plist/Devices/Audio`. 
  * Please share if you find out other working `layout-id`! 
-* Windows Driver: [MEDIA_6.0.1.8437_WHQL_140133](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/tree/master/DRIVERS/WINDOWS/SOUND/MEDIA_6.0.1.8437_WHQL_140133).
+
 
 #### Wifi & Bluetooth
 * In order to get Bluetooth and Wifi working, a wireless card replacement is needed.
 * For now, the best card to use is DW1830. It has the highest performance among all other hackintosh-able wireless cards.
 * I also tested BCM94360CS2 and BCM943602CS, both aren't as good supported as DW1830, both in terms of Windows and macOS on Razer Blade.
 * KEXT required to enable BT support: `AirportBrcmFixup.kext`,`BrcmBluetoothInjector.kext`,`BrcmFirmwareData.kext`,`BrcmPatchRAM3.kext`.
-* Windows Drivers:
-  * Wifi: [dell_1820a_558560_64_10.exe](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/WIFI/dell_1820a_558560_64_10.exe)
-  * Bluetooth: [broadcom_bt_1201940_64_413.exe
-](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
 
 #### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
