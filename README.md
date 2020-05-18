@@ -1,4 +1,4 @@
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/opencore_logo.png" alt="OpenCore" width="250">
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/opencore_logo.png" alt="OpenCore" width="225">
 
 # Hackintosh for Razer Blade Advanced 15
 ![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)
