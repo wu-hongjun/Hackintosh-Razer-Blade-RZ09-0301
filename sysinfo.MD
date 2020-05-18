@@ -14,3 +14,4 @@
 * Screen: Asus XG279Q 2560x1440 144Hz
 * Mouse: Logitech G Pro Wireless
 * Keyboard: Plum Niz 84EC
+* eGPU(USB): Plugable USB3 6950 HDMI
