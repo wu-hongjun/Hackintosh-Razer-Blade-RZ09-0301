@@ -13,6 +13,9 @@
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 
+## Disclaimer
+* Note that by using any file or code in this repository you agree to this disclaimer.
+* This project is provided as-is, can potentially brick your machine, and may break your warranty. I am not responsible for any damage that is caused by you using anything in this Repo.
 
 ## Update
 
