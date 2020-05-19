@@ -24,13 +24,7 @@
 * [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
 
-  
-## Issues & Solutions
-### Issue Report
-* We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
-* I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
-
-### System Information
+## System Information
 | Part | Functional | Model | 
 | --- | --- | --- |
 | Machine | ✅ | RZ09-0301 |
@@ -50,6 +44,11 @@
 | eGPU (USB) | ✅ | Plugable USB3 6950 HDMI |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 | Integrated IR camera |
+  
+## Issues & Solutions
+### Issue Report
+* We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
+* I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
 
 ### Guides
 * [Razer Blade 15 Adv (Clover)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh): Follow to modify BIOS. 
