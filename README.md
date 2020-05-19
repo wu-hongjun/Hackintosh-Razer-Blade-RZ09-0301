@@ -15,7 +15,7 @@
 
 ## Disclaimer
 * Note that by using any file or code in this repository you agree to this disclaimer.
-* This project is provided as-is, can potentially brick your machine, and may break your warranty. I am not responsible for any damage that is caused by you using anything in this Repo.
+* This project is issued under the [MIT License](https://opensource.org/licenses/MIT) provided as-is, can potentially brick your machine, and may break your warranty. I am not responsible for any damage that is caused by you using anything in this Repo.
 
 ## Update
 
