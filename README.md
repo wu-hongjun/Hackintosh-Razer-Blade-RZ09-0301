@@ -41,6 +41,7 @@
 | iGPU | ✅ | Intel UHD 630 |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
+| Bluetooth | ✅ | Broadcom 20702 Bluetooth 4.0 |
 | Webcam | ✅ | Integrated 720P Webcam |
 | IR Camera | 🚫 | Integrated IR camera |
 | Microphone | ✅ | Integrated Dual-Array Microphone |
