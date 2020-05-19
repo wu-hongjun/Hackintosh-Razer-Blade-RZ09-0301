@@ -40,7 +40,7 @@
 | SSD | 2TB Sabrent NVMe SSD |
 | iGPU | Intel UHD 630 |
 | dGPU | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
-| WLAN | Broadcom BCM94360CS2 with Adapter |
+| WLAN | Broadcom BCM94360CS2 with NGFF Adapter |
 | Webcam | Integrated 720P + IR Camera |
 | Internal Screen | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | Asus XG279Q 27' 2560x1440 144Hz |
@@ -50,11 +50,10 @@
 
 ### Guides
 * [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
-* [ARTICLE - Razer Blade 15 Advanced (High Sierra)](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/)
 * [ARTICLE - The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/)
 
 ### macOS
-* At the time of writing, macOS 10.15.3 Installer has trouble working with Unibeast 10.0.0. In order to do an install, I used the EFI created by Unibeast 10.0.0, and made a Mojave USB disk to install Mojave (10.14.6) first. Then I upgraded to Catalina (10.15.3) with the same EFI (1.0) and it went smoothly.
+* [TOOL - Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
 * [ARTICLE - Download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 * [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
@@ -81,11 +80,14 @@
 ### GPU
 ##### iGPU
 * UHD 630 is supported from 2.X and above.
+* Some times UHD 630 glichs on the internal screen, but does not effect external displaylink output.
 * HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
-   * Long story short, it won't work. If it works, let me know. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in SSDT. 
+   * Long story short, it won't work. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, the mini-DP and HDMI port or USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in `config.plist/-wegnoegpu`. 
 ##### dGPU
 * NVIDIA RTX 2070 Max-Q is not supported and is disabled with `-wegnoegpu`.
-* [Apple won't work with NVIDIA to release graphics card driver for 10.14](https://www.macrumors.com/2018/11/01/nvidia-comment-on-macos-mojave-drivers/). Currently, there is nothing we can do. We also have not tweaked on Thunderbolt 3 since we don't have proper hardware to test it. 
+* [Apple and Nvidia Are Over: NVIDIA drops CUDA support for macOS.](https://gizmodo.com/apple-and-nvidia-are-over-1840015246)
+* Currently, there is nothing we can do. Let's hope Apple and NVIDIA work together again. 
+
 ##### eGPU via USB
 * USB DisplayLink Display Output: 
   * Hardware
@@ -94,9 +96,7 @@
      * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz, macOS support 60Hz). 
   * Software
      * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
-     * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference.
-##### eGPU via Thunderbolt 3
-* Untested.
+     * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference. 
 
 ### System Preferences
    * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
@@ -110,21 +110,11 @@
 * I sold my eGPU so I was not abe to test it, but for OpenCore version, for now, it is probably not going to work.
 
 ### Undervolting:
-  * TBD
-  * By undervolting the computer, the fan is MUCH quieter and more pleasant to use. I am using an app called [volta](https://volta.garymathews.com). You can also google for undervolting using script which I hasn't tried so do it in your own risk. Unfortunately intel does not have a XTU software for macOS. It is not free, but it is cheap. Just two cups of coffee gives you a much better experience. You can download a "trial version" and try it out on your laptop. I didn't get money for advertising this...it just works. 
+  * (TBD) By undervolting the computer, the fan is MUCH quieter and more pleasant to use. I am using an app called [volta](https://volta.garymathews.com). You can also google for undervolting using script which I hasn't tried so do it in your own risk. Unfortunately intel does not have a XTU software for macOS. It is not free, but it is cheap. Just two cups of coffee gives you a much better experience. You can download a "trial version" and try it out on your laptop. I didn't get money for advertising this...it just works. 
       
 ### Replace Thermal Paste:
    * WARNING: Not recommended. If you bend the copper plate the entire thing becomes useless. 
       
-
-   
-### Clover Bootloader (Deprecated)
-* [Minimalism](https://github.com/Errrneist/Hackintosh-Theme-Minimalism): If you are interested in the theme I used, check it out over here.
-* [Clover Configurator](https://mackie100projects.altervista.org/download-clover-configurator/): I recommend users to use to configure your config.plist in order to eliminate typos.
-* ACPI
-  * [SSDT-ECUSBX.aml](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/ACPI/SSDT/SSDT-ECUSBX.aml)
-    * [Solution](https://www.tonymacx86.com/threads/catalina-hates-me.286452/post-2028954) for `ERROR: apfs_module_start: 1683`. Make sure to have it in `/ACPI/patched/` otherwise the installer will stuck in the loading screen.
-   
 ### Other Configurations:
 | Owner | CPU | Model | Bootloader | Link |
 | --- | --- | --- | --- | --- |
