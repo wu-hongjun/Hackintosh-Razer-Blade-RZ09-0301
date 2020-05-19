@@ -52,13 +52,13 @@
 | IR Camera | 🚫 | Integrated IR camera |
 
 ### Guides
-* [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
-* [ARTICLE - The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/)
+* [Razer Blade 15 Adv (Clover)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh): Follow to modify BIOS. 
+* [The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/): Learn more about OpenCore.
 
 ### macOS
-* [TOOL - Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
-* [ARTICLE - Download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
-* [ARTICLE - Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
+* [Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
+* [How to download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
+* [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
 ### Windows
 ##### Drivers
@@ -68,7 +68,7 @@
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
    
 ### BIOS
-* I strongly recommend following [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) to modify your BIOS.
+* I strongly recommend following [Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) to modify your BIOS.
 * Note that using other people's BIOS is generally a really, really bad idea. It WILL possibly block your machine. However, I will provide my BIOS as a reference under `./BIOS/afuwin.rom`.
 
 ### Audio
@@ -102,7 +102,7 @@
      * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference. 
 
 ### System Preferences
-   * [ARTICLE - How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
+   * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
      
 ### Thunderbolt
 ##### General
@@ -140,12 +140,12 @@
 | [Avery Black](https://github.com/1Revenger1) | OpenCore Laptop Guide |
 
 ## License
-* This work is issued under the [996 license](https://github.com/996icu/996.ICU/blob/master/LICENSE).
+* This work is issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE) and [MIT License](https://opensource.org/licenses/MIT).
+
 
 ## Donate
-* Donating to this project is OPTIONAL. 
+* Donating to this project is optional as the intention of this project is build on each other's work and benefit everyone. 
 * However, if you would like to buy me a coffee, you can do that using QR codes (WechatPay or Venmo).
 <img align="middle" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/donate.png" alt="donate" width="500">
 
-### Cheers, Errrneist.
 
