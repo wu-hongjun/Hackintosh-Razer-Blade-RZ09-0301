@@ -50,9 +50,8 @@
 * We welcome people to submit issue and report them! This will help all of us to figure out what can be done to the laptop. Please file a issue in the **Issues** module.
 * I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
 
-### Guides
-* [Razer Blade 15 Adv (Clover)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh): Follow to modify BIOS. 
-* [The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/): Learn more about OpenCore.
+### OpenCore
+* [The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/): OpenCore laptop guide and documentation.
 
 ### macOS
 * [Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
@@ -68,7 +67,7 @@
 ](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/WINDOWS/BLUETOOTH/broadcom_bt_1201940_64_413.exe).
    
 ### BIOS
-* I strongly recommend following [Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) to modify your BIOS.
+* I strongly recommend following the steps from [Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh) to modify your BIOS.
 * Note that using other people's BIOS is generally a really, really bad idea. It WILL possibly block your machine. However, I will provide my BIOS as a reference under `./BIOS/afuwin.rom`.
 
 ### Audio
