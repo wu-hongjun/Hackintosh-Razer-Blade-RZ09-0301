@@ -55,6 +55,7 @@
 
 ### macOS
 * [Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
+* [Volta: Undervolting software in macOS (untested yet).](https://volta.garymathews.com)
 * [How to download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
 
@@ -112,9 +113,6 @@
 * Hardware I tested with: Thunderbolt 3 NVMe SSD enclosure + PM981 1TB.
 ##### eGPU
 * I sold my eGPU so I was not abe to test it, but for OpenCore version, for now, it is probably not going to work.
-
-### Undervolting:
-  * (TBD) By undervolting the computer, the fan is MUCH quieter and more pleasant to use. I am using an app called [volta](https://volta.garymathews.com). You can also google for undervolting using script which I hasn't tried so do it in your own risk. Unfortunately intel does not have a XTU software for macOS. It is not free, but it is cheap. Just two cups of coffee gives you a much better experience. You can download a "trial version" and try it out on your laptop. I didn't get money for advertising this...it just works. 
       
 ### Replace Thermal Paste:
    * WARNING: Not recommended. If you bend the copper plate the entire thing becomes useless. 
