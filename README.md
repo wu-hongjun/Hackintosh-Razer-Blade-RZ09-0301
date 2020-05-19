@@ -41,7 +41,8 @@
 | iGPU | ✅ | Intel UHD 630 |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
-| Webcam | ✅ | Integrated 720P + IR Camera |
+| Webcam | ✅ | Integrated 720P Webcam |
+| IR Camera | 🚫 | Integrated IR camera |
 | Microphone | ✅ | Integrated Dual-Array Microphone |
 | Internal Screen | ✅ | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | ✅ | Asus XG279Q 27' 2560x1440 144Hz |
