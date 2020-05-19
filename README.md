@@ -31,7 +31,7 @@
 * I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
 
 ### System Information
-| Part | Working | Model | 
+| Part | Functional | Model | 
 | --- | --- | --- |
 | Machine | ✅ | RZ09-0301 |
 | BIOS | ✅ | 1.04 |
