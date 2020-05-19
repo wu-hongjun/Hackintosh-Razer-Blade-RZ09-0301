@@ -31,22 +31,23 @@
 * I recognize that there are a lot of Chinese speaking people participating in the discussion which is good! But if you can, please also leave an English version of your message when you post your discussion so we can have the world solve problems together.
 
 ### System Information
-| Part | Model | 
-| --- | --- | 
-| Machine | RZ09-0301 |
-| BIOS | 1.04 |
-| CPU | Intel i7-9750H 2.60GHz 6C12T |
-| RAM | 32GB DDR4 2666GHz SODIMM |
-| SSD | 2TB Sabrent NVMe SSD |
-| iGPU | Intel UHD 630 |
-| dGPU | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
-| WLAN | Broadcom BCM94360CS2 with NGFF Adapter |
-| Webcam | Integrated 720P + IR Camera |
-| Internal Screen | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
-| External Screen | Asus XG279Q 27' 2560x1440 144Hz |
-| Mouse | Logitech G Pro Wireless |
-| Keyboard | Plum Niz 84EC |
-| eGPU (USB) | Plugable USB3 6950 HDMI |
+| Part | Working | Model | 
+| --- | --- | --- |
+| Machine | ✔️ | RZ09-0301 |
+| BIOS | ✔️ | 1.04 |
+| CPU | ✔️ | Intel i7-9750H 2.60GHz 6C12T |
+| RAM | ✔️ | 32GB DDR4 2666GHz SODIMM |
+| SSD | ✔️ | 2TB Sabrent NVMe SSD |
+| iGPU | ✔️ | Intel UHD 630 |
+| dGPU | - | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
+| WLAN | ✔️ | Broadcom BCM94360CS2 with NGFF Adapter |
+| Webcam | ✔️ | Integrated 720P + IR Camera |
+| Microphone | ✔️ | Integrated Dual-Array Microphone |
+| Internal Screen | ✔️ | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
+| External Screen | ✔️ | Asus XG279Q 27' 2560x1440 144Hz |
+| Mouse | ✔️ | Logitech G Pro Wireless |
+| Keyboard | ✔️ | Plum Niz 84EC |
+| eGPU (USB) | ✔️ | Plugable USB3 6950 HDMI |
 
 ### Guides
 * [ARTICLE - Razer Blade 15 Advanced (Mojave and Catalina)](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
