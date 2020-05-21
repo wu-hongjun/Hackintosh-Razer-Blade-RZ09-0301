@@ -101,11 +101,12 @@
      * DisplayLink is a USB hardware based solution for display output. 
      * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull). It is able to achieve 4K60P via the DisplayLink Chip. 
      * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz, macOS support 60Hz). 
+     * Note that the display info macOS detects is incorrect (image below) but functional wise it is perfectly fine.
   * Software
      * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
      * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference. 
 
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/displayinfo.png" alt="Sysinfo" width="1024">
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/displayinfo.png" alt="DisplayInfo" width="1024">
 
 ### System Preferences
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
