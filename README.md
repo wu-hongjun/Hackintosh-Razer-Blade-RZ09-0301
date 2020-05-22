@@ -45,7 +45,7 @@
 | Keyboard | ✅ | Plum Niz 84EC |
 | eGPU (USB) | ✅ | Plugable USB3 6950 HDMI |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
-| IR Camera | 🚫 | Integrated IR camera |
+| IR Camera | 🚫 | Integrated IR Windows Hello camera |
   
 ## Issues & Solutions
 ### Issue Report
