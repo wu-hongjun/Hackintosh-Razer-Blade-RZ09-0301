@@ -87,8 +87,7 @@
 
 ### GPU
 ##### iGPU
-* UHD 630 is supported from 2.X and above.
-* Some times UHD 630 glichs on the internal screen, but does not effect external displaylink output.
+* UHD 630 is supported from 2.X and above. With patched iGPU can achieve internal 240Hz.
 * HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
    * Long story short, it won't work. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, the mini-DP and HDMI port or USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in `config.plist/-wegnoegpu`. 
 ##### dGPU
