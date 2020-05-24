@@ -8,7 +8,7 @@
 
 
 > Don't assume it is raining if you hear wind blowing. ——— [The Elder](https://hongjunwu.com/elder/).    
-### Current Release: [v10.15-2.3 LTS](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
+### Current Release: [v10.15-2.4 LTS](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
@@ -22,7 +22,8 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/changelog.md)
-* [20200518] Released v10.15.4-2.3.
+* [20200524] Released v10.15-2.4 major update, patched iGPU, fixed gliching issue.
+* [20200518] Released v10.15-2.3 major update, transitioned to OpenCore.
 * [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
 
@@ -86,8 +87,7 @@
 
 ### GPU
 ##### iGPU
-* UHD 630 is supported from 2.X and above.
-* Some times UHD 630 glichs on the internal screen, but does not effect external displaylink output.
+* UHD 630 is supported from 2.X and above. With patched iGPU can achieve internal 240Hz.
 * HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
    * Long story short, it won't work. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, the mini-DP and HDMI port or USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in `config.plist/-wegnoegpu`. 
 ##### dGPU
