@@ -23,7 +23,7 @@
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/changelog.md)
 * [20200524] Released v10.15-2.4 major update, patched iGPU, fixed gliching issue.
-* [20200518] Released v10.15.4-2.3.
+* [20200518] Released v10.15-2.3 major update, transitioned to OpenCore.
 * [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
 
