@@ -27,6 +27,10 @@
 * [20200518] Updated several sections of README.MD.
 * [20200517] Starting from v2.X, this project will be moving to OpenCore.
 
+## Help Needed
+* Thunderbolt is not working. I tested a eGPU and a NVMe drive.
+* If anyone know anything about Titan Ridge Thunderbolt 3 on OpenCore feel free to open an issue! 
+
 ## System Information
 | Part | Functional | Model | 
 | --- | --- | --- |
