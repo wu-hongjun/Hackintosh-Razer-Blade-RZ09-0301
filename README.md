@@ -36,7 +36,7 @@
 | --- | --- | --- |
 | Machine | ✅ | RZ09-0301 |
 | BIOS | ✅ | 1.04 |
-| CPU | ✅ | Intel i7-9750H 2.60GHz 6C12T |
+| CPU | ✅ | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
 | RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
 | SSD | ✅ | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
 | iGPU | ✅ | Intel UHD 630 |
@@ -46,8 +46,8 @@
 | Microphone | ✅ | Integrated Dual-Array Microphone |
 | Internal Screen | ✅ | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | ✅ | Asus XG279Q 27' 2560x1440 144Hz |
-| Mouse | ✅ | Logitech G Pro Wireless |
-| Keyboard | ✅ | Plum Niz 84EC |
+| Mouse | ✅ | Razer Viper Ultimate RZ30-030501 |
+| Keyboard | ✅ | Plum Niz 84EC (XRGB) Ble/35gf |
 | eGPU (USB) | ✅ | Plugable USB3 6950 HDMI |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 | Integrated IR Windows Hello camera |
