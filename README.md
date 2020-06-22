@@ -34,7 +34,7 @@
 ## System Information
 | Part | Functional | Model | 
 | --- | --- | --- |
-| Machine | ✅ | RZ09-0301 |
+| Machine | ✅ | Razer Blade 15 Advanced 2019 RZ09-0301 |
 | BIOS | ✅ | 1.04 |
 | CPU | ✅ | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
 | RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
