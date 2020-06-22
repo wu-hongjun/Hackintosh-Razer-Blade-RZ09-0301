@@ -38,7 +38,7 @@
 | BIOS | ✅ | 1.04 |
 | CPU | ✅ | Intel i7-9750H 2.60GHz 6C12T |
 | RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
-| SSD | ✅ | 2TB Sabrent NVMe SSD |
+| SSD | ✅ | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
 | iGPU | ✅ | Intel UHD 630 |
 | WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
 | Bluetooth | ✅ | Broadcom 20702 Bluetooth 4.0 |
