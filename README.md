@@ -39,7 +39,7 @@
 | CPU | ✅ | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
 | RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
 | SSD | ✅ | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
-| iGPU | ✅ | Intel UHD 630 |
+| iGPU | ✅ | Intel® UHD Graphics 630 2048MB |
 | WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
 | Bluetooth | ✅ | Broadcom 20702 Bluetooth 4.0 |
 | Webcam | ✅ | Integrated 720P Webcam |
