@@ -48,7 +48,7 @@
 | External Screen | ✅ | Asus XG279Q 27' 2560x1440 144Hz |
 | Mouse | ✅ | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | ✅ | Plum Niz 84EC (XRGB) Ble/35gf |
-| eGPU (USB) | ✅ | Plugable USB3 6950 HDMI |
+| eGPU (USB) | ✅ | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 | Integrated IR Windows Hello camera |
   
