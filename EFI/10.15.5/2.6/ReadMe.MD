@@ -1,6 +1,4 @@
-# V2.2
+# V2.6
 ## Changes
-* Rolled back VoodooCHID.kext to fix a trackpad issue. 
+* Updated OpenCore to 0.5.9
 
-## Known Issues 
-* Bluetooth not working.
