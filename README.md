@@ -7,7 +7,7 @@
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 
-> Don't assume it is raining if you hear wind blowing. ——— [The Elder](https://hongjunwu.com/elder/).    
+> Don't assume it is raining if you hear wind blowing. ——— The Elder.    
 ### Current Release: [v10.15-2.4 LTS](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
