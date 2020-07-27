@@ -32,26 +32,26 @@
 * If anyone know anything about Titan Ridge Thunderbolt 3 on OpenCore feel free to open an issue! 
 
 ## System Information
-| Part | Functional | Model | 
+| Part | Functionality | Model | 
 | --- | --- | --- |
-| Machine | ✅ | Razer Blade 15 Advanced 2019 RZ09-0301 |
-| BIOS | ✅ | 1.04 |
-| CPU | ✅ | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
-| RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
-| SSD | ✅ | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
-| iGPU | ✅ | Intel® UHD Graphics 630 2048MB |
-| WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
-| Bluetooth | ✅ | Broadcom 20702 Bluetooth 4.0 |
-| Webcam | ✅ | Integrated 720P Webcam |
-| Microphone | ✅ | Integrated Dual-Array Microphone |
-| Internal Screen | ✅ | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
-| External Screen | ✅ | Asus XG279Q 27' 2560x1440 144Hz |
-| Mouse | ✅ | Razer Viper Ultimate RZ30-030501 |
-| Keyboard | ✅ | Plum Niz 84EC (XRGB) Ble/35gf |
-| eGPU (USB) | ✅ | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
-| Thunderbolt 3 | ⛔ | Titan Ridge Thunderbolt 3 Controller |
-| dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
-| IR Camera | 🚫 | Integrated IR Windows Hello camera |
+| Machine | ✅ Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
+| BIOS | ✅ Functional | 1.04 |
+| CPU | ✅ Functional | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
+| RAM | ✅ Functional | 32GB DDR4 2666GHz SODIMM |
+| SSD | ✅ Functional | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
+| iGPU | ✅ Functional | Intel® UHD Graphics 630 2048MB |
+| WLAN | ✅ Functional | Broadcom BCM94360CS2 with NGFF Adapter |
+| Bluetooth | ✅ Functional | Broadcom 20702 Bluetooth 4.0 |
+| Webcam | ✅ Functional | Integrated 720P Webcam |
+| Microphone | ✅ Functional | Integrated Dual-Array Microphone |
+| Internal Screen | ✅ Functional | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
+| External Screen | ✅ Functional | Asus XG279Q 27' 2560x1440 144Hz |
+| Mouse | ✅ Functional | Razer Viper Ultimate RZ30-030501 |
+| Keyboard | ✅ Functional | Plum Niz 84EC (XRGB) Ble/35gf |
+| USB DisplayLink | ✅ Functional | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
+| Thunderbolt 3 | ⛔ Not Working| Titan Ridge Thunderbolt 3 Controller |
+| dGPU | 🚫 Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
+| IR Camera | 🚫 Disabled | Integrated IR Windows Hello camera |
   
 ## Issues & Solutions
 ### Issue Report
