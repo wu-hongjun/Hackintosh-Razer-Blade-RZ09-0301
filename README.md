@@ -37,7 +37,8 @@
 | Machine | ✅ Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
 | BIOS | ✅ Functional | 1.04 |
 | CPU | ✅ Functional | Intel® Core™ i7-9750H CFL-R Processor 2.60GHz 12MB 6C12T |
-| RAM | ✅ Functional | 32GB DDR4 2666GHz SODIMM |
+| Chipset | ✅ Functional | Intel® Cannon Point HM370 10/B0 |
+| RAM | ✅ Functional | Micron 16ATF2G64HZ-2G6E1 32GB DDR4 2666GHz SODIMM |
 | SSD | ✅ Functional | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
 | iGPU | ✅ Functional | Intel® UHD Graphics 630 2048MB |
 | Wi-Fi | ✅ Functional | Broadcom BCM94360CS2 802.11AC with NGFF Adapter |
@@ -46,10 +47,11 @@
 | Microphone | ✅ Functional | Integrated Dual-Array Microphone |
 | Internal Screen | ✅ Functional | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | ✅ Functional | Asus XG279Q 27' 2560x1440 144Hz |
+| Battery | ✅ Functional | CNB1RC30 80219 mWh 17.359V |
 | Mouse | ✅ Functional | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | ✅ Functional | Plum Niz 84EC (XRGB) Ble/35gf |
 | USB DisplayLink | ✅ Functional | Plugable USB 3.0 Dual 4K HDMI 2.0 and Gigabit Ethernet Adapter |
-| Thunderbolt 3 | ⛔ Not Working| Titan Ridge Thunderbolt 3 Controller |
+| Thunderbolt 3 | ⛔ Not Working| Intel JHL7540 Titan Ridge 2C 2019 (15E8) |
 | dGPU | 🚫 Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 Disabled | Integrated IR Windows Hello camera |
   
