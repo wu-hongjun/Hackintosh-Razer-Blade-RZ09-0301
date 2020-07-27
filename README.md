@@ -49,6 +49,7 @@
 | Mouse | ✅ | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | ✅ | Plum Niz 84EC (XRGB) Ble/35gf |
 | eGPU (USB) | ✅ | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
+| Thunderbolt 3 | ⛔ | Titan Ridge Thunderbolt 3 Controller |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 | Integrated IR Windows Hello camera |
   
