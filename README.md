@@ -48,7 +48,7 @@
 | External Screen | ✅ Functional | Asus XG279Q 27' 2560x1440 144Hz |
 | Mouse | ✅ Functional | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | ✅ Functional | Plum Niz 84EC (XRGB) Ble/35gf |
-| USB DisplayLink | ✅ Functional | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
+| USB DisplayLink | ✅ Functional | Plugable USB 3.0 Dual 4K HDMI 2.0 and Gigabit Ethernet Adapter |
 | Thunderbolt 3 | ⛔ Not Working| Titan Ridge Thunderbolt 3 Controller |
 | dGPU | 🚫 Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 Disabled | Integrated IR Windows Hello camera |
