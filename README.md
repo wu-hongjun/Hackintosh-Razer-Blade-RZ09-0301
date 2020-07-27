@@ -7,7 +7,7 @@
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/catcritter.png" alt="Critter" width="250">
 
 
-> Don't assume it is raining if you hear wind blowing. ——— [The Elder](https://hongjunwu.com/elder/).    
+> Don't assume it is raining if you hear wind blowing. ——— The Elder.    
 ### Current Release: [v10.15-2.4 LTS](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/releases)
 #### Developer: [@Errrneist](https://www.tonymacx86.com/members/errrneist.1550861/)
 #### Don't forget to star this project if you like it! 
@@ -34,21 +34,21 @@
 ## System Information
 | Part | Functional | Model | 
 | --- | --- | --- |
-| Machine | ✅ | RZ09-0301 |
+| Machine | ✅ | Razer Blade 15 Advanced 2019 RZ09-0301 |
 | BIOS | ✅ | 1.04 |
-| CPU | ✅ | Intel i7-9750H 2.60GHz 6C12T |
+| CPU | ✅ | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
 | RAM | ✅ | 32GB DDR4 2666GHz SODIMM |
-| SSD | ✅ | 2TB Sabrent NVMe SSD |
-| iGPU | ✅ | Intel UHD 630 |
+| SSD | ✅ | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
+| iGPU | ✅ | Intel® UHD Graphics 630 2048MB |
 | WLAN | ✅ | Broadcom BCM94360CS2 with NGFF Adapter |
 | Bluetooth | ✅ | Broadcom 20702 Bluetooth 4.0 |
 | Webcam | ✅ | Integrated 720P Webcam |
 | Microphone | ✅ | Integrated Dual-Array Microphone |
 | Internal Screen | ✅ | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | ✅ | Asus XG279Q 27' 2560x1440 144Hz |
-| Mouse | ✅ | Logitech G Pro Wireless |
-| Keyboard | ✅ | Plum Niz 84EC |
-| eGPU (USB) | ✅ | Plugable USB3 6950 HDMI |
+| Mouse | ✅ | Razer Viper Ultimate RZ30-030501 |
+| Keyboard | ✅ | Plum Niz 84EC (XRGB) Ble/35gf |
+| eGPU (USB) | ✅ | PLUGABLE USB 3.0 DUAL 4K HDMI 2.0 AND GIGABIT ETHERNET ADAPTER |
 | dGPU | 🚫 | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫 | Integrated IR Windows Hello camera |
   
@@ -104,11 +104,9 @@
   * Hardware
      * DisplayLink is a USB hardware based solution for display output. 
      * [Plugable USB3-6950-HDMI](https://www.amazon.com/Plugable-Ethernet-Supports-Displays-3840x2160/dp/B075HMWLJF/ref=sr_1_fkmrnull_1?keywords=Plugable+USB3-6950-HDMI&qid=1555380658&s=gateway&sr=8-1-fkmrnull). It is able to achieve 4K60P via the DisplayLink Chip. 
-     * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz, macOS support 60Hz). 
-     * Note that the display info macOS detects is incorrect (image below) but functional wise it is perfectly fine.
+     * Screen I am using: Asus ROG Strix XG279Q (2560x1440, Native 144 Hz). 
   * Software
      * Normally, you should get driver from: [DisplayLink macOS Driver](https://www.displaylink.com/downloads/macos). 
-     * Driver tested is [DisplayLink Manager 0.5.25](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/DRIVERS/macOS/DisplayLink%20Manager%200.5.25.pkg). Newer version of driver will most possibly work, I just put it here for reference. 
 
 <img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/displayinfo.png" alt="DisplayInfo" width="1024">
 
