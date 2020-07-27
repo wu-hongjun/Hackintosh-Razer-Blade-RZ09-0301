@@ -40,7 +40,7 @@
 | RAM | ✅ Functional | 32GB DDR4 2666GHz SODIMM |
 | SSD | ✅ Functional | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
 | iGPU | ✅ Functional | Intel® UHD Graphics 630 2048MB |
-| WLAN | ✅ Functional | Broadcom BCM94360CS2 with NGFF Adapter |
+| Wi-Fi | ✅ Functional | Broadcom BCM94360CS2 with NGFF Adapter |
 | Bluetooth | ✅ Functional | Broadcom 20702 Bluetooth 4.0 |
 | Webcam | ✅ Functional | Integrated 720P Webcam |
 | Microphone | ✅ Functional | Integrated Dual-Array Microphone |
