@@ -39,7 +39,7 @@
 | CPU | ✅ Functional | Intel® Core™ i7-9750H CFL-R Processor 2.60GHz 12MB 6C12T |
 | Chipset | ✅ Functional | Intel® Cannon Point HM370 10/B0 |
 | RAM | ✅ Functional | Micron 16ATF2G64HZ-2G6E1 32GB DDR4 2666GHz SODIMM |
-| SSD | ✅ Functional | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
+| SSD | ✅ Functional | Sabrent 2TB Rocket NVMe v1.3.0 PCIe M.2 2280 SSD |
 | iGPU | ✅ Functional | Intel® UHD Graphics 630 2048MB |
 | Wi-Fi | ✅ Functional | Broadcom BCM94360CS2 802.11AC with NGFF Adapter |
 | Bluetooth | ✅ Functional | Broadcom 20702 Bluetooth 4.0 |
