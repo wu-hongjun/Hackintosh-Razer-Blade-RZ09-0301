@@ -36,7 +36,7 @@
 | --- | --- | --- |
 | Machine | ✅ Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
 | BIOS | ✅ Functional | 1.04 |
-| CPU | ✅ Functional | Intel® Core™ i7-9750H Processor 2.60GHz 12MB 6C12T |
+| CPU | ✅ Functional | Intel® Core™ i7-9750H CFL-R Processor 2.60GHz 12MB 6C12T |
 | RAM | ✅ Functional | 32GB DDR4 2666GHz SODIMM |
 | SSD | ✅ Functional | Sabrent 2TB Rocket NVMe PCIe M.2 2280 Internal SSD |
 | iGPU | ✅ Functional | Intel® UHD Graphics 630 2048MB |
