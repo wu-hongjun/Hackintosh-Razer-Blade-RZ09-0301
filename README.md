@@ -31,7 +31,7 @@
 * If anyone know anything about Titan Ridge Thunderbolt 3 on OpenCore feel free to open an issue! 
 
 ## System Information
-| Part | Compatibility | Model | 
+| Part | Hardware Compatibility | Model | 
 | --- | --- | --- |
 | Machine | ✅  Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
 | BIOS | ✅  Functional | 1.04 |
