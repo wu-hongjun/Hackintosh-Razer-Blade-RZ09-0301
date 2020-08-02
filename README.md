@@ -50,9 +50,9 @@
 | Mouse | ✅  Functional | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | ✅  Functional | Plum Niz 84EC (XRGB) Ble/35gf |
 | USB DisplayLink | ✅  Functional | Plugable USB 3.0 Dual 4K HDMI 2.0 and Gigabit Ethernet Adapter |
-| Thunderbolt 3 Chipset | ⛔  Not Working| Intel JHL7540 Titan Ridge 2C 2019 (15E8) |
-| Thunderbolt 3 Controller | ⛔  Not Working| ADT Link R43SG-TB3 |
-| eGPU | ⛔  Not Working| SAPPHIRE RX 570 4GB GDDR5|
+| Thunderbolt 3 Chipset | ⛔  Not Working | Intel JHL7540 Titan Ridge 2C 2019 (15E8) |
+| Thunderbolt 3 Controller | ⛔  Not Working | ADT Link R43SG-TB3 |
+| eGPU | ⛔  Not Working | SAPPHIRE RX 570 4GB GDDR5|
 | dGPU | 🚫  Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | 🚫  Disabled | Integrated IR Windows Hello Camera |
   
