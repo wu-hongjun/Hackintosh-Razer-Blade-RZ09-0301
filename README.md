@@ -12,7 +12,6 @@
 #### Don't forget to star this project if you like it! 
 #### READ THE ENTIRE README.MD BEFORE YOU TAKE ANY ACTION.
 
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/sysinfo.png" alt="Sysinfo" width="1024">
 
 ## Disclaimer
 * Note that by using any file or code in this repository you agree to this disclaimer.
