@@ -66,10 +66,13 @@
 * [The Vanilla Laptop Guide](https://1revenger1.gitbook.io/laptop-guide/): OpenCore laptop guide and documentation.
 
 ### macOS
+#### General Information
 * [Hackintool: The Swiss army knife of vanilla Hackintoshing.](https://github.com/headkaze/Hackintool)
 * [Volta: Undervolting software in macOS (untested yet).](https://volta.garymathews.com)
 * [How to download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
+#### Big Sur
+* Upgrade EFI to v11.0-3.0 and it is a smooth upgrade.
 
 ### Windows
 ##### Drivers
