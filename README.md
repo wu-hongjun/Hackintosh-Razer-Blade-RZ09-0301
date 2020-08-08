@@ -20,7 +20,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/changelog.md)
-* [20200807] Released v10.15-2.6 major update. prepare for Big Sur!
+* [20200807] Released v11.0-3.0 major update. Big Sur!
 * [20200524] Released v10.15-2.4 major update, patched iGPU, fixed gliching issue.
 * [20200518] Released v10.15-2.3 major update, transitioned to OpenCore.
 * [20200518] Updated several sections of README.MD.
@@ -34,6 +34,7 @@
 | Part | Compatibility | Model | 
 | --- | --- | --- |
 | Machine | Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
+| macOS | Functional | macOS 11 Big Sur |
 | BIOS | Functional | 1.04 |
 | CPU | Functional | Intel® Core™ i7-9750H CFL-R Processor 2.60GHz 12MB 6C12T |
 | Chipset | Functional | Intel® Cannon Point HM370 PCH 10/B0 |
