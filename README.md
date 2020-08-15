@@ -34,7 +34,7 @@
 | Part | Compatibility | Model | 
 | --- | --- | --- |
 | Machine | Functional | Razer Blade 15 Advanced 2019 RZ09-0301 |
-| macOS | Functional | macOS 11 Big Sur |
+| macOS | Functional | macOS 11.0 Big Sur Beta |
 | BIOS | Functional | 1.04 |
 | CPU | Functional | Intel® Core™ i7-9750H CFL-R Processor 2.60GHz 12MB 6C12T |
 | Chipset | Functional | Intel® Cannon Point HM370 PCH 10/B0 |
