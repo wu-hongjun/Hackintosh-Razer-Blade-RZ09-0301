@@ -46,6 +46,8 @@
 | Webcam | Functional | Integrated 720P Camera |
 | Trackpad | Functional | ELAN 0406 I2C HID |
 | Microphone | Functional | Integrated Dual-Array Microphone |
+| Internal Sound Card | Functional | Realtek ALC |
+| External Sound Card | Functional | Sound Blaster Play! 3 |
 | Internal Screen | Functional | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | Functional | Asus XG279Q 27' 2560x1440 144Hz |
 | Battery | Functional | CNB1RC30 80219 mWh 17.359V |
