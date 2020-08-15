@@ -54,6 +54,7 @@
 | Mouse | Functional | Razer Viper Ultimate RZ30-030501 |
 | Keyboard | Functional | Plum Niz 84EC (XRGB) Ble/35gf |
 | Printer | Functional | HP DeskJet 1112 |
+| Tablet | Functional | Wacom Intuos Pro M |
 | USB DisplayLink | Functional | Plugable USB 3.0 Dual 4K HDMI 2.0 and Gigabit Ethernet Adapter |
 | Thunderbolt 3 Chipset | Unfunctional | Intel JHL7540 Titan Ridge 2C 2019 (15E8) |
 | Thunderbolt 3 Controller | Unfunctional | ADT Link R43SG-TB3 |
