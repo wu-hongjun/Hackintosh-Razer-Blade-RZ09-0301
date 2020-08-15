@@ -44,7 +44,7 @@
 | Wi-Fi | Functional | Broadcom BCM94360CS2 802.11AC with NGFF Adapter |
 | Bluetooth | Functional | Broadcom 20702 Bluetooth 4.0 |
 | Webcam | Functional | Integrated 720P Camera |
-| Trackpad | Functional | Elan 0406 I2C HID |
+| Trackpad | Functional | ELAN 0406 I2C HID |
 | Microphone | Functional | Integrated Dual-Array Microphone |
 | Internal Screen | Functional | Sharp LQ156M1JW03 15.6' 1920x1080 240Hz |
 | External Screen | Functional | Asus XG279Q 27' 2560x1440 144Hz |
