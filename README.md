@@ -57,8 +57,8 @@
 | USB DisplayLink | Functional | Plugable USB 3.0 Dual 4K HDMI 2.0 and Gigabit Ethernet Adapter |
 | Thunderbolt 3 Chipset | Unfunctional | Intel JHL7540 Titan Ridge 2C 2019 (15E8) |
 | Thunderbolt 3 Controller | Unfunctional | ADT Link R43SG-TB3 |
-| eGPU | Unfunctional | SAPPHIRE RX 570 4GB GDDR5|
-| dGPU | Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
+| External GPU | Unfunctional | SAPPHIRE RX 570 4GB GDDR5|
+| Discrete GPU | Disabled | NVIDIA RTX 2070 Max-Q 8GB GDDR6 |
 | IR Camera | Disabled | Integrated IR Windows Hello Camera |
   
 ## Issues & Solutions
