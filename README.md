@@ -20,6 +20,7 @@
 ## Update
 
 ##### Recent | [Changelog Archive](https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/changelog.md)
+* [20200815] Released v11.0-3.1 minor update. Added some temp support for Thunderbolt 3.
 * [20200807] Released v11.0-3.0 major update. Big Sur!
 * [20200524] Released v10.15-2.4 major update, patched iGPU, fixed gliching issue.
 * [20200518] Released v10.15-2.3 major update, transitioned to OpenCore.
