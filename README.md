@@ -153,6 +153,7 @@
 | [Jack Boyuan Xu](https://github.com/boyuanx) | OpenCore [solution](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh/issues/23#issuecomment-629762916). |
 | [Myroslav Rys](https://github.com/stonevil) | Clover portion and BIOS modification. |
 | [Avery Black](https://github.com/1Revenger1) | OpenCore Laptop Guide |
+| [Alex James](https://github.com/al3xtjames) | TbtForcePower.efi |
 
 ## License
 * This work is issued under the [996 License](https://github.com/996icu/996.ICU/blob/master/LICENSE) and [MIT License](https://opensource.org/licenses/MIT).
