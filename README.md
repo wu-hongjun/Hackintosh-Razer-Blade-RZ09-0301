@@ -113,7 +113,7 @@
 * [Apple and Nvidia Are Over: NVIDIA drops CUDA support for macOS.](https://gizmodo.com/apple-and-nvidia-are-over-1840015246)
 * Currently, there is nothing we can do. Let's hope Apple and NVIDIA work together again. 
 
-##### eGPU via USB
+##### DisplayLink
 * USB DisplayLink Display Output: 
   * Hardware
      * DisplayLink is a USB hardware based solution for display output. 
@@ -128,12 +128,7 @@
    * [How to customize the “About This Mac” section of a Mac, Joaquim Barbosa](https://www.idownloadblog.com/2017/01/13/how-to-modify-about-this-mac-hackintosh/).
      
 ### Thunderbolt
-##### General
-* As of the Clover version (Latest 1.8) thunderbolt seems to be working.
-* For OpenCore version (v2.X and above), I have not successfullyimplemented Thunderbolt 3.
-* Hardware I tested with: Thunderbolt 3 NVMe SSD enclosure + PM981 1TB.
-##### eGPU
-* I sold my eGPU so I was not abe to test it, but for OpenCore version, for now, it is probably not going to work.
+  * A more in detail Thunderbolt issue can be found on TonyMacX86: [Link](https://www.tonymacx86.com/threads/coffeelake-laptop-thunderbolt-3-egpu-not-working.302541/).
       
 ### Replace Thermal Paste:
    * WARNING: Not recommended. If you bend the copper plate the entire thing becomes useless. 
