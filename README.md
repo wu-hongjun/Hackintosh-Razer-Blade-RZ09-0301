@@ -77,8 +77,6 @@
 * [Volta: Undervolting software in macOS (untested yet).](https://volta.garymathews.com)
 * [How to download a full ‘Install macOS’ app with software update in TERMINAL](https://scriptingosx.com/2019/10/download-a-full-install-macos-app-with-softwareupdate-in-catalina/)
 * [Guide for mounting EFI using TERMINAL](https://github.com/Errrneist/Hackintosh-Thinkpad-X1-Extreme/blob/master/MOUNTEFI.MD): If you cannot mount EFI via Clover Configurator.
-#### Big Sur
-* Upgrade EFI to v11.0-3.0 and it is a smooth upgrade.
 
 ### Windows
 ##### Drivers
@@ -108,8 +106,9 @@
 * UHD 630 is supported from 2.X and above. With patched iGPU can achieve internal 240Hz.
 * HDMI/mDP Port and USB-C to DP/HDMI/DVI Cables:
    * Long story short, it won't work. Why? Because all display output is hard wired to the NVIDIA GPU. You can confirm this by going into NVIDIA controler panel in Windows and see PhysX, and you can see all display output is wired to the NVIDIA card, while the eDP in screen display is wired to the iGPU. Therefore, since NVIDIA card won't work, also Optimus won't work, the mini-DP and HDMI port or USB-C display output just won't work because the display output is not wired to the iGPU. Not to mention you disabled dGPU in `config.plist/-wegnoegpu`. 
+   
 ##### dGPU
-* NVIDIA RTX 2070 Max-Q is not supported and is disabled with `-wegnoegpu`.
+* NVIDIA RTX 2070 Max-Q is not supported.
 * [Apple and Nvidia Are Over: NVIDIA drops CUDA support for macOS.](https://gizmodo.com/apple-and-nvidia-are-over-1840015246)
 * Currently, there is nothing we can do. Let's hope Apple and NVIDIA work together again. 
 
