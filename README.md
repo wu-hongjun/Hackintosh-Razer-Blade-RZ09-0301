@@ -4,7 +4,7 @@
 ![MODEL](https://img.shields.io/badge/MODEL-RZ09--0301-blue)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
-<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/bigsurcritter.png" alt="Critter" width="250">
+<img align="right" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/big_sur_critter.jpg" alt="Critter" width="250">
 
 
 > Don't assume it is raining if you hear wind blowing. ——— The Elder.    
