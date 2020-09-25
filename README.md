@@ -109,6 +109,7 @@
    
 ##### dGPU
 * NVIDIA RTX 2070 Max-Q is not supported.
+* A proper way to disable dGPU can be found here: [Patching to disable dGPU](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh/issues/19#issuecomment-632171858) I just don't have the time and effort to do it right now (As of Sept 25, 2020) because a recent technical breakdown corrupted my macOS and Windows system. You'll have to do it separately on top of my configurations.
 * [Apple and Nvidia Are Over: NVIDIA drops CUDA support for macOS.](https://gizmodo.com/apple-and-nvidia-are-over-1840015246)
 * Currently, there is nothing we can do. Let's hope Apple and NVIDIA work together again. 
 
