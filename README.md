@@ -101,9 +101,12 @@
 <img align="left" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/wifi_adapter.jpeg" alt="adapter" width="1024">
 
 * Someone got Intel AX Wifi working. 
-  * Wifi: [itlwm Repo](https://github.com/OpenIntelWireless/itlwm) [itlwm wiki](https://openintelwireless.github.io/itlwm/)
+  * Wifi: 
+    * [itlwm: Repository](https://github.com/OpenIntelWireless/itlwm) 
+    * [itlwm: Wiki](https://openintelwireless.github.io/itlwm/)
     *  I did not validated it on my machine just FYI.
-  * BT: [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 
+  * BT: 
+    * [IntelBluetoothFirmware: Repository](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 
     * This one I actually tested it on Big Sur using a AX200, it works but the connection quality is very poor.
 
 ### GPU
