@@ -104,7 +104,7 @@
   * Wifi: [itlwm Repo](https://github.com/OpenIntelWireless/itlwm) [itlwm wiki](https://openintelwireless.github.io/itlwm/)
     *  I did not validated it on my machine just FYI.
   * BT: [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) 
-    * This one I actually tested it on Big Sur, it works but the connection quality is very poor.
+    * This one I actually tested it on Big Sur using a AX200, it works but the connection quality is very poor.
 
 ### GPU
 ##### iGPU
