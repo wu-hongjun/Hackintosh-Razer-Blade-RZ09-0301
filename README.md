@@ -100,6 +100,9 @@
 * For now, the best card to use is BCM94360CS2 using a NGFF adapter which you can buy on eBay under $10. It has the highest performance among all other hackintosh-able wireless cards. It is natively supported in OpenCore (v2.X and above). For clover machines, you will want to use DW1830 with some additional kext. 
 <img align="left" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/wifi_adapter.jpeg" alt="adapter" width="1024">
 
+* Someone got Intel AX201 working although I did not validated it on my machine just FYI. 
+  * Wifi: [itlwm Repo](https://github.com/OpenIntelWireless/itlwm) [itlwm wiki](https://openintelwireless.github.io/itlwm/)
+  * BT: [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) This one I actually tested it on Big Sur, it works but the connection quality is very poor.
 
 ### GPU
 ##### iGPU
