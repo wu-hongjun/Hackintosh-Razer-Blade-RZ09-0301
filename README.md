@@ -100,7 +100,12 @@
 * For now, the best card to use is BCM94360CS2 using a NGFF adapter which you can buy on eBay under $10. It has the highest performance among all other hackintosh-able wireless cards. It is natively supported in OpenCore (v2.X and above). For clover machines, you will want to use DW1830 with some additional kext. 
 <img align="left" src="https://github.com/Errrneist/Hackintosh-Razer-Blade-Advanced/blob/master/IMG/wifi_adapter.jpeg" alt="adapter" width="1024">
 
-* Someone got Intel AX Wifi working. 
+* Broadcom Wifi Card Experiments:
+  * BCM94360CS2 -> Wifi: Working, BT: Working.
+  * BCM943602CS -> Wifi: Not Working, BT: Working.
+  * BCM943602BAED (DW1830) -> Wifi: Not Working, BT: Working.
+
+* Intel Wifi Cards: Someone got Intel AX Wifi working. 
   * Wifi: 
     * [itlwm: Repository](https://github.com/OpenIntelWireless/itlwm) 
     * [itlwm: Wiki](https://openintelwireless.github.io/itlwm/)
